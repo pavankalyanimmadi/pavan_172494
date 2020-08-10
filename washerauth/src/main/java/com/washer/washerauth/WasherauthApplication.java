@@ -1,19 +1,15 @@
-
-
-package com.example.customerauth;
+package com.washer.washerauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class CustomerauthApplication {
+public class WasherauthApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CustomerauthApplication.class, args);
+		SpringApplication.run(WasherauthApplication.class, args);
 	}
 
 }
-  
